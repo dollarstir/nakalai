@@ -1301,7 +1301,7 @@ function mainmenu1($pid)
     }
     $pages = [
         'Home' => 'home',
-        'Books' => 'books',
+        'Products' => 'products',
         'Categories' => $cats,
         'About' => 'aboutus',
         'Contact' => 'contact',
