@@ -801,11 +801,11 @@ function books($limit = '')
             </div>
             <div class="product-link">
                 <div class="product-button">
-                <a href="whatsapp://send?phone=+233540953069&text=Hello , Please i am interested in your product : '.$row['title'].' \n Price(GHS'.$row['price'].')." title="Details"><i class="fa fa-external-link"></i></a>
+                    <a href="whatsapp://send?phone=0540953069&text=Hello , Please i am interested in your product : '.$row['title'].'  Price(GHS'.$row['price'].')"  class ="btn btn-success" style="background-color: rgb(240, 124, 41) !important;border:none;color:#ffff;"><i class="fa fa-shopping-cart"></i> Add to cart</a>
                 </div>
                 <div class="add-to-link">
                     <ul>
-                        <li><a href="whatsapp://send?phone=0540953069&text=Hello , Please i am interested in your product : '.$row['title'].' \n Price(GHS'.$row['price'].')." title="Details"><i class="fa fa-external-link"></i></a></li>
+                        <li><a href="whatsapp://send?phone=0540953069&text=Hello , Please i am interested in your product : '.$row['title'].'  Price(GHS'.$row['price'].')" title="Details"><i class="fa fa-external-link"></i></a></li>
                     </ul>
                 </div>
             </div>
