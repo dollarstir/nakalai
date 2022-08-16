@@ -40,7 +40,7 @@ adminhead(' Author List');
                                                 </div>
                                             </div>
                                             <div class="add_button ms-2">
-                                                <a href="backend/#" data-bs-toggle="modal" data-bs-target="#addcategory" class="btn_1">Add New</a>
+                                                <a href="newauthor" data-bs-toggle="modal" data-bs-target="#addcategory" class="btn_1">Add New</a>
                                             </div>
                                         </div>
                                     </div>

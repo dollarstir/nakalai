@@ -841,11 +841,11 @@ function books($limit = '')
             </div>
             <div class="product-link">
                 <div class="product-button">
-                    <button title="Add to cart" id="'.$row['id'].'"  class ="btn btn-success addtocart" style="background-color: rgb(240, 124, 41) !important;border:none;"><i class="fa fa-shopping-cart"></i> Add to cart</button>
+                    <a href="whatsapp://send?phone=0540953069&text=Hello , Please i am interested in your product : '.$row['title'].' \n Price(GHS'.$row['price'].')." title="Add to cart" id="'.$row['id'].'"  class ="btn btn-success" style="background-color: rgb(240, 124, 41) !important;border:none;color:#ffff;"><i class="fa fa-shopping-cart"></i> Add to cart</a>
                 </div>
                 <div class="add-to-link">
                     <ul>
-                        <li><a href="product-details.html" title="Details"><i class="fa fa-external-link"></i></a></li>
+                        <li><a href="whatsapp://send?phone=0540953069&text=Hello , Please i am interested in your product : '.$row['title'].' \n Price(GHS'.$row['price'].')." title="Details"><i class="fa fa-external-link"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -858,7 +858,7 @@ function books($limit = '')
 function bookspage($type, $limit = '', $page = 1)
 {
     if ($limit == '') {
-        $res = paginate('books', ['id' => 'DESC']);
+        $res = paginate('books', ['id' => 'DESC'], 10, 1);
     } else {
         $res = paginate('books', ['id' => 'DESC'], $limit, $page);
     }
@@ -1253,7 +1253,7 @@ function topbars1()
                 <div class="col-lg-3 col-md-5 col-12">
                     <div class="header-search">
                         <form action="../search">
-                            <input type="text" placeholder="Search book by name or price" name="keyword" />
+                            <input type="text" placeholder="Search product by name or price" name="keyword" />
                             <button type="submit" class="mybtnsearch"><i class="fa fa-search"></i></button>
                         </form>
                     </div>

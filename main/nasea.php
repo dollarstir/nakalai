@@ -65,21 +65,32 @@ begin('Welcome');
     <!-- slider-area-start -->
     <div class="slider-area">
         <div class="slider-active owl-carousel">
-            <div class="single-slider pt-125 pb-130 bg-img" style="background-image:url(main/img/slider/7.jpg);">
+            <div class="single-slider pt-125 pb-130 bg-img" style="background-image:url(main/img/slider/wig7.png);">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-5">
                             <div class="slider-content slider-animated-1 text-center">
                                 <h1>Huge Sale</h1>
-                                <h2 style="color:#f1f1f1;">Naseabooks</h2>
-                                <h3 style="color:#f1f1f1;">Get a book for less than 20gh</h3>
-                                <a href="books">Shop now</a>
+                                <h2 style="color:#f1f1f1;">Nakalai Hair</h2>
+                                <h3 style="color:#f1f1f1;">Get a hair at lower price</h3>
+                                <a href="products">Shop now</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="single-slider slider-h1-2 pt-215 pb-100 bg-img" style="background-image:url(main/img/slider/8.jpg);">
+            <div class="single-slider slider-h1-2 pt-215 pb-100 bg-img" style="background-image:url(main/img/slider/wig5.jpg);">
+                <div class="container">
+                    <div class="slider-content slider-content-2 slider-animated-1">
+                        <h1>We can help get </h1>
+                        <h2>affordable hair</h2>
+                        <h3>&  hair products</h3>
+                        <a href="contact">Contact Us Today!</a>
+                    </div>
+                </div>
+            </div>
+
+			<div class="single-slider slider-h1-2 pt-215 pb-100 bg-img" style="background-image:url(main/img/slider/wig6.jpg);">
                 <div class="container">
                     <div class="slider-content slider-content-2 slider-animated-1">
                         <h1>We can help get your</h1>
@@ -105,7 +116,7 @@ begin('Welcome');
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title bt text-center pt-100 mb-30 section-title-res">
-                        <h2>Latest Books</h2>
+                        <h2>Latest Products</h2>
                     </div>
                 </div>
             </div>
@@ -421,20 +432,7 @@ begin('Welcome');
     </div> -->
     <!-- testimonial-area-end -->
     <!-- recent-post-area-start -->
-    <div class="recent-post-area pt-95 pb-100">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-title text-center mb-30 section-title-res">
-                        <h2>Latest from our blog</h2>
-                    </div>
-                </div>
-                <div class="post-active owl-carousel text-center">
-               <?php recentpoem(); ?>
-                </div>
-            </div>
-        </div>
-    </div>
+    
     <!-- recent-post-area-end -->
     <!-- social-group-area-start -->
     <div class="social-group-area ptb-60">

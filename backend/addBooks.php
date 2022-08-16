@@ -21,7 +21,7 @@ adminhead(' Add books');
                             <div class="white_card_header">
                                 <div class="box_header m-0">
                                     <div class="main-title">
-                                        <h3 class="m-0">Add Book</h3>
+                                        <h3 class="m-0">Add Product</h3>
                                     </div>
                                 </div>
                             </div>
@@ -43,7 +43,7 @@ adminhead(' Add books');
                                             </select>
                                         </div>
                                         <div class="mb-3">
-                                            <label class="form-label" for="exampleInputEmail1">Book Description</label>
+                                            <label class="form-label" for="exampleInputEmail1">Product Description</label>
                                             <input type="text" name="description" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Description">
                                             <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
                                         </div>
@@ -62,21 +62,21 @@ adminhead(' Add books');
                                                 <input type="number" name="price" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Price">
                                                 <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
                                             </div>
-                                            <h6 class="card-subtitle mb-2">Book Couver Picture</h6>
+                                            <h6 class="card-subtitle mb-2">Product  Picture</h6>
                                             <div class="input-group mb-3">
                                                 <input type="file" name="front" class="form-control" id="inputGroupFile03">
                                                 <label class="input-group-text" for="inputGroupFile03">Upload</label>
                                             </div>
-                                            <h6 class="card-subtitle mb-2">Book Back Cover</h6>
+                                            <h6 class="card-subtitle mb-2">product alt Picture</h6>
                                             <div class="input-group mb-3">
                                                 <input type="file" name="back" class="form-control" id="inputGroupFile04">
                                                 <label class="input-group-text" for="inputGroupFile04">Upload</label>
                                             </div>
-                                            <h6 class="card-subtitle mb-2">Book File</h6>
+                                            <!-- <h6 class="card-subtitle mb-2">Product File</h6>
                                             <div class="input-group mb-3">
                                                 <input type="file" name="link" class="form-control" id="inputGroupFile05">
                                                 <label class="input-group-text" for="inputGroupFile05">Upload</label>
-                                            </div>
+                                            </div> -->
                                             
                                             <!-- <div class="mb-3">
                                         <label class="form-label" for="exampleInputPassword1">Password</label>
