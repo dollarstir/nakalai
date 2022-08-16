@@ -151,7 +151,7 @@ echo '<!doctype html>
 												<!-- <div class="quality-button">
 													<input class="qty" type="number" value="1">
 												</div> -->
-												<button class="btn btn-primary addtocart" id="<?php echo $bk['id']; ?>"  style="background-color: rgb(240, 124, 41) !important;border:none; margin :10px!important;">Add to cart</button>
+												<a href="whatsapp://send?phone=0540953069&text=Hello , Please i am interested in your product : <?php echo $bk['title']; ?>  Price(GHS <?php echo $bk['price']; ?>" title="Add to cart" id="'.$row['id'].'"  class ="btn btn-success" style="background-color: rgb(240, 124, 41) !important;border:none;color:#ffff;"><i class="fa fa-shopping-cart"></i> Add to cart</a>
 											
 										</div>
 										<div class="product-social-links">

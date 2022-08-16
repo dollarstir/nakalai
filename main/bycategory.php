@@ -129,7 +129,7 @@ echo '<!doctype html>
 						<a href="#"><img src="https://htmldemo.net/koparion/koparion/img/banner/32.jpg" alt="banner" /></a>
 					</div> -->
 					<div class="section-title-5 mb-30">
-						<h2>Book By category( <?php echo $autod[0]['catname']; ?>)</h2>
+						<h2>Products By category( <?php echo $autod[0]['catname']; ?>)</h2>
 					</div>
 					<!-- <div class="toolbar mb-30">
 						<div class="shop-tab">

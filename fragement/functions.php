@@ -606,7 +606,7 @@ function topbars()
                 <div class="col-lg-3 col-md-5 col-12">
                     <div class="header-search">
                     <form action="search">
-                    <input type="text" placeholder="Search book by name or price" name="keyword" />
+                    <input type="text" placeholder="Search Products by name or price" name="keyword" />
                     <button type="submit" class="mybtnsearch"><i class="fa fa-search"></i></button>
                 </form>
                     </div>
@@ -659,8 +659,6 @@ function mainmenu($pid)
         'Categories' => $cats,
         'About' => 'aboutus',
         'Contact' => 'contact',
-        'Free Peoms' => 'poems',
-        'View Cart' => 'cart',
     ];
 
     $tt = '<!-- main-menu-area-start -->
@@ -725,8 +723,6 @@ function mobilemenu()
         ],
         'About' => 'aboutus',
         'Contact' => 'contact',
-        'Free Peoms' => 'poems',
-        'View Cart' => 'cart',
     ];
 
     $mb = '<!-- mobile-menu-area-start -->
@@ -808,7 +804,7 @@ function books($limit = '')
         <div class="product-wrapper mb-40">
             <div class="product-img">
                 <a href="product/'.$row['id'].'">
-                    <img loading="lazy" src="yolkassets/upload/'.$row['front'].'" alt="book" class="primary" />
+                    <img loading="lazy" src="yolkassets/upload/'.$row['front'].'" alt="book" class="primary"  style="height:200px;"/>
                 </a>
                 <div class="quick-view">
                     <button id="'.$row['id'].'" class="btn btn-success previewbtn" style="background-color: rgb(240, 124, 41) !important;border:none;"  data-target="#productModal" data-toggle="modal" title="Quick View">
@@ -1269,8 +1265,6 @@ function mainmenu1($pid)
         'Categories' => $cats,
         'About' => 'aboutus',
         'Contact' => 'contact',
-        'Free Peoms' => 'poems',
-        'View Cart' => 'cart',
     ];
 
     $tt = '<!-- main-menu-area-start -->
@@ -1335,8 +1329,6 @@ function mobilemenu1()
         ],
         'About' => 'aboutus',
         'Contact' => 'contact',
-        'Free Peoms' => 'poems',
-        'View Cart' => 'cart',
     ];
 
     $mb = '<!-- mobile-menu-area-start -->
