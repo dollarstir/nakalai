@@ -801,7 +801,7 @@ function books($limit = '')
             </div>
             <div class="product-link">
                 <div class="product-button">
-                    <a href="whatsapp://send?phone=0540953069&text=Hello Please i am interested in your product  '.$row['title'].' PriceGHS'.$row['price'].'" title="Add to cart" id="'.$row['id'].'"  class ="btn btn-success" style="background-color: rgb(240, 124, 41) !important;border:none;color:#ffff;"><i class="fa fa-shopping-cart"></i> Add to cart</a>
+                    <a href="whatsapp://send?phone=0540953069&text='.$row['title'].'GHS'.$row['price'].'" title="Add to cart" id="'.$row['id'].'"  class ="btn btn-success" style="background-color: rgb(240, 124, 41) !important;border:none;color:#ffff;"><i class="fa fa-shopping-cart"></i> Add to cart</a>
                 </div>
                 <div class="add-to-link">
                     <ul>
