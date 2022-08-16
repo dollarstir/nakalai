@@ -485,7 +485,7 @@ function previewproduct($id)
         </div>-->
         
            
-        <a href="whatsapp://send?phone=0540953069&text=Hello , Please i am interested in your product : '.$book['title'].' \n Price(GHS'.$book['price'].')." title="Add to cart" id="'.$book['id'].'"  class ="btn btn-success" style="background-color: rgb(240, 124, 41) !important;border:none;color:#ffff;"><i class="fa fa-shopping-cart"></i> Add to cart</a>
+        <a href="whatsapp://send?phone=+233540953069&text=Hello , Please i am interested in your product : '.$book['title'].' \n Price(GHS'.$book['price'].')." title="Add to cart" id="'.$book['id'].'"  class ="btn btn-success" style="background-color: rgb(240, 124, 41) !important;border:none;color:#ffff;"><i class="fa fa-shopping-cart"></i> Add to cart</a>
         
         <span><i class="fa fa-check"></i> In stock</span>
     </div>
