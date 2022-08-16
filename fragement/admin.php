@@ -541,7 +541,7 @@ function addbook($title, $author, $description, $category, $price)
     if (empty(trim($title)) || empty($author) || empty($category) || empty(trim($price))) {
         echo 'All fields are required';
     } else {
-        if (empty($_FILES['front']['name']) || empty($_FILES['back']['name']) || empty($_FILES['link']['name'])) {
+        if (empty($_FILES['front']['name']) || empty($_FILES['back']['name'])) {
             echo 'All documents must be uploaded';
         } else {
             $record = [
