@@ -561,43 +561,7 @@ function topbars()
     $soday = (!isset($_SESSION['user'])) ? '<li><a href="login">Sign in</a></li>' : '<li><button class="logout">Logout</button></li>';
 
     return '<!-- header-top-area-start -->
-    <div class="header-top-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-12">
-                    <div class="language-area">
-                        <ul>
-                           <!-- <li><img src="main/img/flag/1.jpg" alt="flag" /><a href="main/#">English<i class="fa fa-angle-down"></i></a>
-                                <div class="header-sub">
-                                    <ul>
-                                        <li><a href="main/#"><img src="main/img/flag/2.jpg" alt="flag" />france</a></li>
-                                        <li><a href="main/#"><img src="main/img/flag/3.jpg" alt="flag" />croatia</a></li>
-                                    </ul>
-                                </div>
-                            </li>-->
-                           <!-- <li><a href="main/#">USD $<i class="fa fa-angle-down"></i></a>
-                                <div class="header-sub dolor">
-                                    <ul>
-                                        <li><a href="main/#">EUR €</a></li>
-                                        <li><a href="main/#">USD $</a></li>
-                                    </ul>
-                                </div>
-                            </li>-->
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-12">
-                    <div class="account-area text-right">
-                        <ul>
-                            <li><a href="account">My Account</a></li>
-                            <li><a href="checkout">Checkout</a></li>
-                            '.$soday.'
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    
     <!-- header-top-area-end -->
     <!-- header-mid-area-start -->
     <div class="header-mid-area ptb-40">
