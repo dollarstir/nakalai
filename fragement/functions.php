@@ -804,7 +804,7 @@ function books($limit = '')
         <div class="product-wrapper mb-40">
             <div class="product-img">
                 <a href="product/'.$row['id'].'">
-                    <img loading="lazy" src="yolkassets/upload/'.$row['front'].'" alt="book" class="primary"  style="height:200px;"/>
+                    <img loading="lazy" src="yolkassets/upload/'.$row['front'].'" alt="book" class="primary"  style="height:300px;"/>
                 </a>
                 <div class="quick-view">
                     <button id="'.$row['id'].'" class="btn btn-success previewbtn" style="background-color: rgb(240, 124, 41) !important;border:none;"  data-target="#productModal" data-toggle="modal" title="Quick View">
