@@ -38,7 +38,7 @@ function begin($title)
         <meta property="og:title" content="Nakalai Hair Factory">
         <meta property="og:description"
             content="Nakalai Hair Factory is one of the Best hair shops in the world. Hair Weaves, Lace Front Wigs, & Beauty Supplies - Elevate Styles. Janet Collection My Belle Short Pixie Wig Indria. The Best Prices. Fast Shipping.">
-        <meta property="og:image" content="yolkassets/upload/logo.png">
+        <meta property="og:image" content="https://nakalaihairfactory.com/yolkassets/upload/applogo231662351729axesdfd63157971e19c5.png">
     
         <!-- Twitter -->
         <meta property="twitter:card" content="summary_large_image">
@@ -46,7 +46,7 @@ function begin($title)
         <meta property="twitter:title" content="Nakalai Hair Factory ">
         <meta property="twitter:description"
             content="Nakalai Hair Factory is one of the Best hair shops in the world. Hair Weaves, Lace Front Wigs, & Beauty Supplies - Elevate Styles. Janet Collection My Belle Short Pixie Wig Indria. The Best Prices. Fast Shipping.">
-        <meta property="twitter:image" content="yolkassets/upload/logo.png">
+        <meta property="twitter:image" content="https://nakalaihairfactory.com/yolkassets/upload/applogo231662351729axesdfd63157971e19c5.png">
 
         <!-- Favicon -->
         <link rel="apple-touch-icon" sizes="57x57" href="main/apple-icon-57x57.png">
