@@ -59,7 +59,7 @@ adminhead(' Add books');
                                             </div>
                                             <div class="mb-3">
                                                 <label class="form-label" for="exampleInputEmail1">price</label>
-                                                <input type="number" name="price" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Price">
+                                                <input type="text" name="price" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Price">
                                                 <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
                                             </div>
                                             <h6 class="card-subtitle mb-2">Product  Picture</h6>
