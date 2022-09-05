@@ -75,7 +75,7 @@ begin('Books');
 						<a href="#"><img src="https://htmldemo.net/koparion/koparion/img/banner/32.jpg" alt="banner" /></a>
 					</div> -->
 					<div class="section-title-5 mb-30">
-						<h2>Book</h2>
+						<h2>Products</h2>
 					</div>
 					<!-- <div class="toolbar mb-30">
 						<div class="shop-tab">
