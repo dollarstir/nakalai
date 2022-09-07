@@ -48,7 +48,7 @@ adminhead(' Contact Page');
                                         </div>
                                         <div class="mb-3">
                                             <label class="form-label" for="exampleInputEmail1">Company Phone Number</label>
-                                            <input type="number" name="appcontact" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="phone" value="<?php viewcontinfo('appcontact'); ?>">
+                                            <input type="text" name="appcontact" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="phone" value="<?php viewcontinfo('appcontact'); ?>">
                                             <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
                                         </div>
 
