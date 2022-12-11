@@ -839,12 +839,14 @@ function bookspage($type, $limit = '', $page = 1)
                         <i class="fa fa-search-plus"></i>
                     </button>
                 </div>
+                <!--
                 <div class="product-flag">
                     <ul>
                         <li><span class="sale">new</span></li>
                         <li><span class="discount-percentage">-5%</span></li>
                     </ul>
                 </div>
+                -->
             </div>
             <div class="product-details text-center">
                 <div class="product-rating">
